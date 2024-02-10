@@ -1,0 +1,62 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010103;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.contactDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #13131A;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+
+.Fa{
+    font-size: 25px;
+}
+
+.contacts label{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 10px;
+    box-shadow: #FFFFFF 0 0 2px;
+
+}
+
+.contacts input{
+    padding: 15px;
+    outline: none;
+    border: 0px;
+    background-color: #010103;
+    color: #FFFFFF;
+}
+
+.buttonContact {
+    width: 150px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0px;
+    background-color: #DCAB7E;
+    color: #FFFFFF;
+}
+
+.buttonContact:hover{
+    width: 180px;
+    transition: 0.3s;
+}

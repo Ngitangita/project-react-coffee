@@ -1,0 +1,65 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010103;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.menuDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.menus {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #010103;
+    color: #FFFFFF;
+    box-shadow: white 0 0 2px;
+}
+
+.menus:hover {
+    background-color: #FFFFFF;
+    color: #010103;
+}
+
+.menus p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.span1{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.span2 {
+    text-decoration-line: line-through;
+}
+
+.buttonAdd {
+    width: 150px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0px;
+    background-color: #DCAB7E;
+    color: #FFFFFF;
+}
+
+.buttonAdd:hover{
+    width: 180px;
+    transition: 0.3s;
+    color: #010103;
+}

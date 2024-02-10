@@ -1,0 +1,84 @@
+.customer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #010103;
+    overflow: hidden;
+    z-index: 98;
+    
+}
+
+.sliders {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    gap: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.slider {
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 600px;
+    transition: transform 0.5s ease;
+    z-index: 98;
+}
+
+.divStyle {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.slid_Images {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+    border: 1px solid #010103;
+}
+
+.slid_Images img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.slid_Images span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slid {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dot.activeDot {
+    background-color: red;
+}

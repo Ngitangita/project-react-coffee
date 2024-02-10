@@ -1,0 +1,53 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: #010103;
+    box-shadow: #FFFFFF 0 0 2px 0;
+    z-index: 99;
+}
+
+.nav{
+    width: 90%;
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav img{
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.link a:hover{
+    color: #DCAB7E;
+    content: "";
+    bottom: -0.5px;
+    border-bottom: 1px solid #DCAB7E;
+}
+
+.Fa{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search:hover{
+    color: #DCAB7E;
+}

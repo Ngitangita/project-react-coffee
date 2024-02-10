@@ -1,0 +1,73 @@
+.blogue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #010103;
+}
+
+.blogueDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blogues {
+    max-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: white 0 0 2px;
+    overflow: hidden;
+    z-index: 98;
+}
+
+
+.blogue img:hover {
+    transform: scale(1.3);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+
+
+.blogues .p1 {
+    font-size: 25px;
+    padding: 0 0 0 20px;
+    z-index: 99;
+}
+
+.blogues .p1:hover{
+    color: #DCAB7E;
+    cursor: pointer;
+}
+
+.blogues .p2{
+    padding: 0 0 0 20px;
+}
+
+.blogues span{
+    font-size: 19px;
+    color: #DCAB7E;
+    padding: 0 0 0 20px;
+}
+
+.buttonBlogue {
+    max-width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 0px;
+    background-color: #DCAB7E;
+    color: #FFFFFF;
+    position: relative;
+    left: 20px;
+}
+
+.buttonBlogue:hover{
+    max-width: 180px;
+    transition: 0.3s;
+}
