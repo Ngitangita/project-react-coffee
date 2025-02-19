@@ -1,7 +1,11 @@
 import style from './homPage.module.css'
 import { FaTimes } from 'react-icons/fa'
-import { useOpen} from "../contex/ThemContex"
 import { FaSearch} from "react-icons/fa";
+import cartItem1 from '../../assets/cart-item-1.png'
+import cartItem2 from '../../assets/cart-item-2.png'
+import cartItem3 from '../../assets/cart-item-3.png'
+import cartItem4 from '../../assets/cart-item-4.png'
+import { useOpen } from '../context/ThemContex';
 
 export function HomPage() {
   const { onOpenBar, openBar, openSearch } = useOpen();
@@ -25,7 +29,7 @@ export function HomPage() {
           <>
            <div className={style.cartItems}>
             <div className={style.cartItem}>
-              <img src="../../../public/cart-item-1.png" alt="" />
+              <img src={cartItem1} alt="cart-item-1.png" />
               <div className={style.cart}>
                 <p> Cart Item 01</p>
                 <span>$15.99/-</span>
@@ -33,7 +37,7 @@ export function HomPage() {
               <FaTimes className={style.faTimes}/>
             </div>
             <div className={style.cartItem}>
-              <img src="../../../public/cart-item-2.png" alt="" />
+            <img src={cartItem2} alt="cart-item-2.png" />
               <div className={style.cart}>
                 <p> Cart Item 02 </p>
                 <span>$15.99/-</span>
@@ -41,7 +45,7 @@ export function HomPage() {
               <FaTimes className={style.faTimes}/>
             </div>
             <div className={style.cartItem}>
-              <img src="../../../public/cart-item-3.png" alt="" />
+            <img src={cartItem3} alt="cart-item-3.png" />
               <div className={style.cart}>
                 <p> Cart Item 03</p>
                 <span>$15.99/-</span>
@@ -49,7 +53,7 @@ export function HomPage() {
               <FaTimes className={style.faTimes}/>
             </div>
             <div className={style.cartItem}>
-              <img src="../../../public/cart-item-4.png" alt="" />
+            <img src={cartItem4} alt="cart-item-4.png" />
               <div className={style.cart}>
                 <p> Cart Item 04 </p>
                 <span>$15.99/-</span>

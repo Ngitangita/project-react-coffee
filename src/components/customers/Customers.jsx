@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import style from './customers.module.css';
+import pic1 from '../../assets/pic-1.png'
+import pic2 from '../../assets/pic-2.png'
+import pic3 from '../../assets/pic-3.png'
 
 export function Customers() {
   const slideImages = [
     {
-      url: `../../../public/pic-1.png.JPG`,
+      url: `${pic1}`,
       name: `Florentino Elisé`,
       title: `The taste of coffee is stunning, subtle and smooth flavor.`,
       review: ` It is very painful to get rid of obesity. Don't let No spirit be free, 
@@ -12,7 +15,7 @@ export function Customers() {
       Necessities or works, except that these praises get a little less or? No one.`,
     },
     {
-      url: `../../../public/pic-2.png.JPG`,
+      url: `${pic2}`,
       name: `Lario Stanislas`,
       title: `The taste of coffee is stunning, subtle and smooth flavor.`,
       review: ` It is very painful to get rid of obesity. Don't let No spirit be free, 
@@ -20,7 +23,7 @@ export function Customers() {
       Necessities or works, except that these praises get a little less or? No one.`,
     },
     {
-      url: `../../../public/pic-3.png.JPG`,
+      url: `${pic3}`,
       name: `Bemax`,
       title: `The taste of coffee is stunning, subtle and smooth flavor.`,
       review: ` It is very painful to get rid of obesity. Don't let No spirit be free, 

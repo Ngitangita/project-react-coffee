@@ -7,7 +7,7 @@
 }
 
 header{
-    background-image: url('../../../public/home-img.jpeg');
+    background-image: url('../../assets/home-img.jpeg');
     height: 96vh;
     background-size: cover;
     overflow: hidden;

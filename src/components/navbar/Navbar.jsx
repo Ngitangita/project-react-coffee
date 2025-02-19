@@ -1,5 +1,5 @@
 import  style from './navbar.module.css'
-import { useOpen} from "../contex/ThemContex"
+import { useOpen} from "../context/ThemContex"
 import { FaShoppingCart, FaSearch} from "react-icons/fa";
 export function Navbar() {
 
@@ -22,9 +22,9 @@ export function Navbar() {
   return (
    <div className={style.navbar}>
      <nav className={style.nav}>
-      <img src="../../../public/logo.png" />
+      <a href='/#'><img src="/logo.png" /></a>
       <div className={style.link}>
-        <a href='/'>Hom</a>
+        <a href='/#'>Home</a>
         <a href='#about'>About</a>
         <a href='#menu'>Menu</a>
         <a href='#products'>Products</a>

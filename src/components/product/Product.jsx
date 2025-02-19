@@ -1,5 +1,8 @@
 import style from './product.module.css'
 import {   FaStar,FaStarHalf, FaShoppingCart, FaHeart, FaEye } from 'react-icons/fa';
+import product1 from '../../assets/product-1.png'
+import product2 from '../../assets/product-2.png'
+import product3 from '../../assets/product-3.png'
 
 export function Product() {
   return ( 
@@ -14,7 +17,7 @@ export function Product() {
           <FaHeart className={style.Fa1}/>
           <FaEye className={style.Fa1}/>
         </div>
-          <img src="../../../public/product-1.png" />
+        <img src={product1} alt='product-1.png' />
           <p>Fresh Coffee</p>
           <div className={style.Fa}>
             <FaStar/>  
@@ -34,7 +37,7 @@ export function Product() {
             <FaHeart className={style.Fa1}/>
             <FaEye className={style.Fa1}/>
           </div>
-          <img src="../../../public/product-2.png" />
+          <img src={product2} alt='product-2.png' />
           <p>Fresh Coffee</p>
           <div className={style.Fa}>
             <FaStar/>  
@@ -54,7 +57,7 @@ export function Product() {
             <FaHeart className={style.Fa1}/>
             <FaEye className={style.Fa1}/>
           </div>
-          <img src="../../../public/product-3.png" />
+          <img src={product3} alt='product-3.png' />
           <p>Fresh Coffee</p>
           <div className={style.Fa}>
             <FaStar/>  

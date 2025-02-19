@@ -28,7 +28,7 @@ export function Contact() {
           <label><FaPhone className={style.Fa}/>
             <input type="number" placeholder="number" />
           </label>
-          <button className={style.buttonContact}>Contact Now </button>
+          <a href="#"><button className={style.buttonContact}>Contact Now </button></a>
         </div>
       </div>
     </div>

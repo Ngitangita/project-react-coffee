@@ -21,7 +21,7 @@ export function About() {
           Is it not possible for a blind man to be blinded by a wise man?
           </p>
           <br />
-          <button className={style.buttonLearn}>Learn More</button>
+          <a href="#"><button className={style.buttonLearn}>Learn More</button></a>
         </div>
       </div>
     </div>

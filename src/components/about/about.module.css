@@ -39,7 +39,7 @@ h3{
 }
 
 .aboutImg{
-    background-image: url(../../../public/about-img.jpeg);
+    background-image: url(../../assets/about-img.jpeg);
     background-size: cover;
     width: 500px;
     height: 400px;
